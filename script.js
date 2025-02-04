@@ -22,7 +22,6 @@ function selectOption(option) {
         alert('Invalid option!');
     }
 }
-
 // Function to flash rainbow colors and then execute a callback function
 function flashRainbowColors(callback) {
     var colors = ['#ff0000', '#ff7f00', '#ffff00', '#00ff00', '#0000ff', '#4b0082', '#9400d3'];
@@ -39,7 +38,6 @@ function flashRainbowColors(callback) {
         }
     }, 2000); // Flash colors for 2 seconds
 }
-
 // Function to display the cat.gif initially
 function displayCat() {
     // Get the container where the image will be displayed
